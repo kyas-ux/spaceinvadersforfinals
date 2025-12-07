@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+// pull request test
+
 struct Player {
     int x, y;
     int is_alive;
@@ -270,4 +272,5 @@ void save_high_score() {
         fclose(file);                         //close file after writing
     }
 }
+
 
